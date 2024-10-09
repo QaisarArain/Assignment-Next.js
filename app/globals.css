@@ -1,0 +1,29 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  padding: 20px 30px;
+}
+
+.navbar a:hover{
+  background-color: black;
+}
+
+@media screen and (max-width:600px) {
+  .navbar a{
+    display: block;
+    text-align: left;
+  }
+  
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a{
+  color: black;
+  text-decoration: none;
+  padding: 1px 10px;
+  text-align: center;
+}
